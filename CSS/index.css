@@ -640,7 +640,6 @@ border-right: 1px solid black;
 #reviews{
   margin: 3rem 0px;
   border-top: 1px solid rgba(128, 128, 128, 0.361);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.361);
 }
 .review-indicator{
   bottom: -60px !important;
