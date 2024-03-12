@@ -1,6 +1,4 @@
 // main page slider
-
-
 {
     const sliders = document.querySelectorAll(".slider");
     // interval between switching images
