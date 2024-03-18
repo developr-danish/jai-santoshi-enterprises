@@ -587,7 +587,12 @@ padding: 0.4rem 0px; }
     padding: 2px 20px 40px;
     border-radius: 15px;
 }
-
+.owl-carousel .owl-prev {
+  left: -70px;
+}
+.owl-carousel .owl-next {
+  right: -70px;
+}
 
 
 .post-slide .post-date{
@@ -731,8 +736,8 @@ padding: 0.4rem 0px; }
 #main-ads{
   width: 100%;
   height: 80vh;
-  background: url(https://addresshome.com/cdn/shop/files/Lighting_d2947326-18aa-450b-93a2-1e0c5d8dbcdb_1800x.jpg?v=1709383241);
-  background-position: center;
+  background: url(../Assets/candle-banner.png);
+  background-position: top;
   background-size: cover;
   margin-top: 4rem;
   display: flex;

@@ -93,19 +93,32 @@ $(function() {
 
   // shop carousel part
 
-  $(document).ready(function() {
-    $("#news-slider").owlCarousel({
-        items : 3,
-        itemsDesktop:[1199,3],
-        itemsDesktopSmall:[980,2],
-        itemsMobile : [600,1],
-        navigation:true,
-        navigationText:["",""],
-        pagination:true,
-        autoPlay:true,
-        loop:true
+  jQuery(document).ready(function($) {
+    "use strict";
+    $('#news-slider').owlCarousel( {
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 30,
+            autoplay: true,
+            dots:true,
+        nav:false,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+          navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1170: {
+                    items: 3
+                }
+            }
+        });
     });
-});
 
   // shop carousel part
 
