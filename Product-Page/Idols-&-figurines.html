@@ -32,7 +32,7 @@
             object-fit: cover !important;
             border-radius: 3px;
         }
-        .product-des p{
+        .product-detail p{
             width: 100%;
             text-align: center;
             margin-bottom: 0px !important;
@@ -45,16 +45,24 @@
             background-color: #ffffff57 !important;
             color: #ffffffe8;
             font-size: 1.4rem;
-            display: none;
             padding: 5px;
+            display: none;
             border-radius: 2px;
             transition: 0.4s;
+            z-index: 999;
         }
         .cart:hover{
             border-radius: 50px;
         }
         .product-detail:hover .cart{
             display: block;
+        }
+        @media (max-width:767px) {
+            .product-detail img{
+            height: 250px !important;
+            object-fit: cover !important;
+            border-radius: 3px;
+        }
         }
     </style>
 </head>
@@ -237,71 +245,60 @@
         <h1 class="text-white ps-5 pb-5">Idols & Figurines</h1>
       </div>
     
-
-      <div class="products py-5">
-        <div class="row mx-md-5 px-5">
-            <div class="col-sm-6 col-md-6 col-lg-3">
+      <section class="container" id="product">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                 <div class="u-fade-type-left js-scroll-trigger">
                     <div class="product-detail">
-                        <a href=""> <img class="w-100" src="../Assets/mango wood.jpg" alt=""></a>
-                         <div class="product-des">
-                             <p>Serving Tray</p>
-                             <p class="text-danger">₹ 600.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
-                         </div>
-                         <button class="cart"><i class="bi bi-cart2"></i></button>
-                     </div>
+                        <img class="w-100" src="../Assets/mango wood.jpg" alt="">
+                        <p class="mt-2 mb-0">Serving Tray</p>
+                        <p class="text-danger">₹ 600.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
+                        <button class="cart"><i class="bi bi-bag-fill"></i></button>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                 <div class="u-fade-type-left js-scroll-trigger">
                     <div class="product-detail">
                         <img class="w-100" src="../Assets/aluminium silver plated.jpg" alt="">
-                        <div class="product-des">
-                            <p>Metal Hamper Gifting Chowki</p>
-                            <p class="text-danger">₹ 1100.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
-                        </div>
-                        <button class="cart"><i class="bi bi-cart2"></i></button>
+                        <p class="mt-2 mb-0">Metal Hamper Gifting Chowki</p>
+                        <p class="text-danger">₹ 1100.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
+                        <button class="cart"><i class="bi bi-bag-fill"></i></button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                 <div class="u-fade-type-left js-scroll-trigger">
                     <div class="product-detail">
                         <img class="w-100" src="../Assets/aluminium Brass finish.jpg" alt="">
-                        <div class="product-des">
-                            <p>gifting Tray</p>
-                            <p class="text-danger">₹ 550.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
-                        </div>
-                        <button class="cart"><i class="bi bi-cart2"></i></button>
+                        <p class="mt-2 mb-0">gifting Tray</p>
+                        <p class="text-danger">₹ 550.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
+                        <button class="cart"><i class="bi bi-bag-fill"></i></button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                 <div class="u-fade-type-left js-scroll-trigger">
                     <div class="product-detail">
-                        <img class="w-100" src="../Assets/Serving gifting tray.jfif" alt="">
-                        <div class="product-des">
-                            <p>Serving MDF Tray</p>
-                            <p class="text-danger">₹ 600.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
-                        </div>
-                        <button class="cart"><i class="bi bi-cart2"></i></button>
+                        <img class="w-100" src="../Assets/Serving MDF Tray.jfif" alt="">
+                        <p class="mt-2 mb-0">Serving MDF Tray</p>
+                        <p class="text-danger">₹ 500.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
+                        <button class="cart"><i class="bi bi-bag-fill"></i></button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                 <div class="u-fade-type-left js-scroll-trigger">
                     <div class="product-detail">
-                        <img class="w-100" src="../Assets/Serving gifting tray.jfif" alt="">
-                        <div class="product-des">
-                            <p>Serving MDF Tray</p>
-                            <p class="text-danger">₹ 600.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
-                        </div>
-                        <button class="cart"><i class="bi bi-cart2"></i></button>
+                        <img class="w-100" src="../Assets/Cake Dom Platter.jfif" alt="">
+                        <p class="mt-2 mb-0">Cake Dom Platter</p>
+                        <p class="text-danger">₹ 1000.00 <span class="ms-2 text-decoration-line-through">₹ 750.00</span></p>
+                        <button class="cart"><i class="bi bi-bag-fill"></i></button>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
+      </section>
     
     
     
