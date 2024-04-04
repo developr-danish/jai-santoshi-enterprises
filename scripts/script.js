@@ -244,3 +244,16 @@ $(function() {
 });
 
   // collection part
+
+
+//   cart js
+document.getElementById('openCartBtn').addEventListener('click', function() {
+    document.getElementById('cartMenu').style.right = '0px';
+});
+
+document.getElementById('closeCartBtn').addEventListener('click', function() {
+    document.getElementById('cartMenu').style.right = '-400px';
+});
+
+
+//   cart js
